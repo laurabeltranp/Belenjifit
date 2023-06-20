@@ -1,0 +1,854 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+.nav{
+    background-color: #A9F5F2;
+    height: 90px;
+    width: 100%;
+    position: fixed;
+}
+.enlcace{
+    position: absolute;
+    padding: 20px 50px;
+}
+.logo{
+    height: 80px;
+    margin-left: 35px;
+    margin-top: 5px;
+}
+nav ul{
+    float: right;
+    margin-right: 40px;
+}
+nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 15px;
+}
+nav ul li a{
+    color: black;
+    font-size: 25px;
+    padding: 7px 13px;
+    border-radius: 3px;
+    text-decoration: upperCase;
+}
+li a.active, li a:hover{
+    background-color: aquamarine;
+}
+.checkbtn{
+    font-size: 20px;
+    color: black;
+    float: right;
+    line-height: 40px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+}
+#check{
+    display: none;
+}
+.seccion1{
+    height: 800px;
+    width: 100%;
+    display: inline-block;
+}
+.belen{
+    border-radius: 30px;
+    width: 300px;
+    margin: 150px 0px 0px 300px;
+}
+.textoPrim{
+    width: 50%;
+    font-size: 30px;
+    vertical-align: top;
+    float: right;
+    margin-top: 300px;
+    margin-right: 300px;
+    text-align: center;
+}
+.nombre{
+    font-size: 80px;
+}
+.oficio{
+    font-size: 40px;
+}
+.seccion2{
+
+    background-color: #A9F5F2;
+    width: 40px;
+    height: 80px;
+}
+
+.seccion2{
+    height:600px;
+    width: 100%;
+    display: inline-block;
+}
+.textoSec{
+    width: 90%;
+    text-align: justify;
+    margin-left: 30px;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: upperCase;
+    margin: 45px;
+    line-height: 2;
+}
+.conoce{
+    font-size: 30px;
+    font-weight: bold;
+}
+.entreno{
+    border-radius: 60px;
+    width: 15%;
+    float: right;
+    margin-left: 400px;
+
+}
+.botonServi {
+    border-radius: 10px;
+    border-style: solid;
+    padding:15px 30px;
+    margin-top: 120px;
+    margin-left: 700px;
+    text-decoration:none;
+    color: black;
+    background-color: transparent ;
+    font-family: arial, sans-serif;
+    font-size: 1em;
+    line-height:1em;
+    width: 180px;
+    font-weight: bold;
+  }
+  
+  .botonServi:hover {
+    background-color:#58D3F7 ;
+    border-style: none;
+    text-decoration: none;
+  }
+footer{
+	flex-direction: row;
+    height: 200px;
+    margin-left: 700px;
+}
+.redes{
+    font-size: 20px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+.iconos a{
+    width: 30px;
+	display: inline-block;
+	margin-left: 120px;
+    margin-top: 10px;
+
+}
+.enlaces a{
+	display: block;
+	margin: 0 20px 0 20px;
+	text-decoration: none;
+}
+.informacion{
+    margin-top: 30px;
+    margin-left: 35px;
+    text-decoration: none;
+    font-size: 15px;
+}
+.cook{
+    text-decoration: none;
+    color: black;
+    margin-right: 20px;
+}
+.pol{
+    color: black;
+    margin-left: 20px;
+
+    margin-right: 20px;
+}
+@media only screen and (max-width: 590px) {
+	/* For tablets: */
+    
+	.nav{
+        background-color: #A9F5F2;
+        height: 90px;
+        width: 100%;
+        position: fixed;
+    }
+    .enlcace{
+        position: absolute;
+        padding: 20px 50px;
+    }
+    .logo{
+        height: 80px;
+        margin-left: 5px;
+        margin-top: 5px;
+    }
+    nav ul{
+        float: right;
+        margin-right: 40px;
+    }
+    nav ul li{
+        display: inline-block;
+        line-height: 80px;
+        margin: 0 15px;
+    }
+    nav ul li a{
+        color: black;
+        font-size: 12px;
+        padding: 2px 3px;
+        border-radius: 3px;
+        text-decoration: upperCase;
+    }
+    li a.active, li a:hover{
+        background-color: aquamarine;
+    }
+    .checkbtn{
+        font-size: 5px;
+        color: black;
+        float: right;
+        line-height: 40px;
+        margin-right: 40px;
+        cursor: pointer;
+        display: none;
+    }
+    #check{
+        display: none;
+    }
+    .seccion1{
+        height: 800px;
+        width: 60%;
+        display: block;
+    }
+    .belen{
+        border-radius: 30px;
+        width: 60%;
+        margin-top: 200px;
+        margin-left: 150px;
+    }
+    .textoPrim{
+        width: 40%;
+        margin-top: 10px;
+        margin-right: 100px;
+    }
+    .nombre{
+        font-size: 25px;
+        margin-left: 140px;
+    }
+    .oficio{
+        font-size: 15px;
+        margin-left: 140px;
+    }
+    .seccion2{
+        background-color: #A9F5F2;
+    }
+    
+    .seccion2{
+        height:700px;
+        width: 100%;
+        display: inline-block;
+    }
+    .textoSec{
+        width: 90%;
+        text-align: justify;
+        margin-left: 30px;
+        font-family: 'Montserrat', sans-serif;
+        text-decoration: upperCase;
+        margin: auto;
+        line-height: 2;
+    }
+    .conoce{
+        font-size: 15px;
+        font-weight: bold;
+    }
+    .info{
+        font-size: 11px;
+    }
+    .entreno{
+        border-radius: 60px;
+        width: 25%;
+        margin-left: 400px;
+        display: inline-block;
+        margin-top: 5px;
+       
+    
+    }
+    .botonServi {
+        border-radius: 10px;
+        border-style: solid;
+        padding:15px 30px;
+        margin-top: 25px;
+        margin-left: 170px;
+        text-decoration:none;
+        color: black !important;
+        background-color: transparent ;
+        font-family: arial, sans-serif;
+        font-size: 1em;
+        line-height:1em;
+        width: 110px;
+        font-weight: bold;
+        
+      }
+      
+      .botonServi:hover {
+        background-color:#58D3F7 ;
+        border-style: none;
+        text-decoration: none;
+      }
+    footer{
+        flex-direction: row;
+        height: 200px;
+        margin-left: 70px;
+    }
+    .redes{
+        font-size: 15px;
+        margin-top: 30px;
+        margin-bottom: 10px;
+        font-weight: bold;
+    }
+    .iconos a{
+        width: 30px;
+        display: inline-block;
+        margin-left: 120px;
+        margin-top: 10px;
+    
+    }
+    .enlaces a{
+        display: block;
+        margin: 0 20px 0 20px;
+        text-decoration: none;
+    }
+    .informacion{
+        margin-top: 30px;
+        margin-left: 35px;
+        text-decoration: none;
+        font-size: 15px;
+    }
+    .cook{
+        text-decoration: none;
+        color: black;
+        margin-right: 20px;
+    }
+    .pol{
+        color: black;
+        margin-left: 20px;
+    
+        margin-right: 20px;
+    }
+}
+@media only screen and (min-width: 600px) {
+	/* For tablets: */
+ 
+	.nav{
+        background-color: #A9F5F2;
+        height: 90px;
+        width: 100%;
+        position: fixed;
+    }
+    .enlcace{
+        position: absolute;
+        padding: 20px 50px;
+    }
+    .logo{
+        height: 80px;
+        margin-left: 5px;
+        margin-top: 5px;
+    }
+    nav ul{
+        float: right;
+        margin-right: 40px;
+    }
+    nav ul li{
+        display: inline-block;
+        line-height: 80px;
+        margin: 0 15px;
+    }
+    nav ul li a{
+        color: black;
+        font-size: 25px;
+        padding: 7px 13px;
+        border-radius: 3px;
+        text-decoration: upperCase;
+    }
+    li a.active, li a:hover{
+        background-color: aquamarine;
+    }
+    .checkbtn{
+        font-size: 5px;
+        color: black;
+        float: right;
+        line-height: 40px;
+        margin-right: 40px;
+        cursor: pointer;
+        display: none;
+    }
+    #check{
+        display: none;
+    }
+    .seccion1{
+        height: 600px;
+        width: 100%;
+        display: inline-block;
+    }
+    .belen{
+        border-radius: 30px;
+        width: 30%;
+ 
+    }
+    .textoPrim{
+        width: auto;
+        font-size: 5px;
+        vertical-align: top;
+        float: right;
+        margin-top: 10px;
+        margin-right: 70px;
+        text-align: center;
+    }
+    .nombre{
+        font-size: 40px;
+    }
+    .oficio{
+        font-size: 20px;
+    }
+    .seccion2{
+        background-color: #A9F5F2;
+        width: 100%;
+        height: 80px;
+    }
+    
+    .seccion2{
+        height:500px;
+        width: 100%;
+        display: inline-block;
+    }
+    .textoSec{
+        width: 90%;
+        text-align: justify;
+        margin-left: 30px;
+        font-family: 'Montserrat', sans-serif;
+        text-decoration: upperCase;
+        margin: 45px;
+        line-height: 2;
+    }
+    .conoce{
+        font-size: 20px;
+        font-weight: bold;
+    }
+    .info{
+        font-size: 13px;
+    }
+    .entreno{
+        border-radius: 60px;
+        width: 20%;
+        margin-left: 400px;
+        display: inline-block;
+       
+    
+    }
+    .botonServi {
+        border-radius: 10px;
+        border-style: solid;
+        padding:15px 30px;
+        margin-top: 5px;
+        margin-left: 200px;
+        text-decoration:none;
+        color: black;
+        background-color: transparent ;
+        font-family: arial, sans-serif;
+        font-size: 1em;
+        line-height:1em;
+        width: 100px;
+        font-weight: bold;
+      }
+      
+      .botonServi:hover {
+        background-color:#58D3F7 ;
+        border-style: none;
+        text-decoration: none;
+      }
+    footer{
+        flex-direction: row;
+        height: 200px;
+        margin-left: 70px;
+    }
+    .redes{
+        font-size: 20px;
+        margin-top: 30px;
+        margin-bottom: 10px;
+        font-weight: bold;
+    }
+    .iconos a{
+        width: 30px;
+        display: inline-block;
+        margin-left: 120px;
+        margin-top: 10px;
+    
+    }
+    .enlaces a{
+        display: block;
+        margin: 0 20px 0 20px;
+        text-decoration: none;
+    }
+    .informacion{
+        margin-top: 30px;
+        margin-left: 35px;
+        text-decoration: none;
+        font-size: 15px;
+    }
+    .cook{
+        text-decoration: none;
+        color: black;
+        margin-right: 20px;
+    }
+    .pol{
+        color: black;
+        margin-left: 20px;
+    
+        margin-right: 20px;
+    }
+}
+@media only screen and (min-width: 768px) {
+/*@media screen and (min-width: 1200px){*/
+	
+    .nav{
+        background-color: #A9F5F2;
+        height: 90px;
+        width: 100%;
+        position: fixed;
+    }
+    .enlcace{
+        position: absolute;
+        padding: 20px 50px;
+    }
+    .logo{
+        height: 80px;
+        margin-left: 5px;
+        margin-top: 5px;
+    }
+    nav ul{
+        float: right;
+        margin-right: 40px;
+    }
+    nav ul li{
+        display: inline-block;
+        line-height: 80px;
+        margin: 0 10px;
+    }
+    nav ul li a{
+        color: black;
+        font-size: 20px;
+        padding: 2px 8px;
+        border-radius: 3px;
+        text-decoration: upperCase;
+    }
+    li a.active, li a:hover{
+        background-color: aquamarine;
+    }
+    .checkbtn{
+        font-size: 5px;
+        color: black;
+        float: right;
+        line-height: 40px;
+        margin-right: 40px;
+        cursor: pointer;
+        display: none;
+    }
+    #check{
+        display: none;
+    }
+    .seccion1{
+        height: 600px;
+        width: 100%;
+        display: inline-block;
+    }
+    .belen{
+        border-radius: 30px;
+        width: 40%;
+        margin-top: 100px;
+        margin-left: 20px;
+    }
+    .textoPrim{
+        width: auto;
+        font-size: 20px;
+        vertical-align: top;
+        float: right;
+        margin-top: 200px;
+        margin-right: 90px;
+        text-align: center;
+    }
+    .nombre{
+        font-size: 50px;
+   
+    }
+    .oficio{
+        font-size: 25px;
+    }
+    .seccion2{
+        background-color: #A9F5F2;
+        width: 100%;
+        height: 80px;
+    }
+    
+    .seccion2{
+        height:910px;
+        width: 100%;
+        display: inline-block;
+    }
+    .textoSec{
+        width: 90%;
+        text-align: justify;
+        font-family: 'Montserrat', sans-serif;
+        text-decoration: upperCase;
+        line-height: 2;
+    }
+    .conoce{
+        font-size: 23px;
+        font-weight: bold;
+    }
+    .info{
+        width: 50%;
+        font-size: 14px;
+        text-align: justify;
+    }
+    .entreno{
+        border-radius: 60px;
+        width: 25%;
+        display: inline-block;
+        margin: auto;
+       
+    
+    }
+    .botonServi {
+        border-radius: 10px;
+        border-style: solid;
+        padding:15px 30px;
+        margin-top: 10px;
+        margin-left: 300px;
+        text-decoration:none;
+        color: black;
+        background-color: transparent ;
+        font-family: arial, sans-serif;
+        font-size: 1em;
+        line-height:1em;
+        width: 130px;
+        font-weight: bold;
+      }
+      
+      .botonServi:hover {
+        background-color:#58D3F7 ;
+        border-style: none;
+        text-decoration: none;
+      }
+    footer{
+        flex-direction: row;
+        height: 200px;
+        margin-left: 200px;
+    }
+    .redes{
+        font-size: 20px;
+        margin-top: 30px;
+        margin-bottom: 10px;
+        font-weight: bold;
+    }
+    .iconos a{
+        width: 30px;
+        display: inline-block;
+        margin-left: 120px;
+        margin-top: 10px;
+    
+    }
+    .enlaces a{
+        display: block;
+        margin: 0 20px 0 20px;
+        text-decoration: none;
+    }
+    .informacion{
+        margin-top: 30px;
+        margin-left: 35px;
+        text-decoration: none;
+        font-size: 15px;
+    }
+    .cook{
+        text-decoration: none;
+        color: black;
+        margin-right: 20px;
+    }
+    .pol{
+        color: black;
+        margin-left: 20px;
+    
+        margin-right: 20px;
+    }
+	}
+	@media only screen and (min-width: 900px) {
+		/*@media screen and (min-width: 1200px){*/
+			
+            .nav{
+                background-color: #A9F5F2;
+                height: 90px;
+                width: 100%;
+                position: fixed;
+            }
+            .enlcace{
+                position: absolute;
+                padding: 20px 50px;
+            }
+            .logo{
+                height: 80px;
+                margin-left: 35px;
+                margin-top: 5px;
+            }
+            nav ul{
+                float: right;
+                margin-right: 40px;
+            }
+            nav ul li{
+                display: inline-block;
+                line-height: 80px;
+                margin: 0 15px;
+            }
+            nav ul li a{
+                color: black;
+                font-size: 25px;
+                padding: 7px 13px;
+                border-radius: 3px;
+                text-decoration: upperCase;
+            }
+            li a.active, li a:hover{
+                background-color: aquamarine;
+            }
+            .checkbtn{
+                font-size: 20px;
+                color: black;
+                float: right;
+                line-height: 40px;
+                margin-right: 40px;
+                cursor: pointer;
+                display: none;
+            }
+            #check{
+                display: none;
+            }
+            .seccion1{
+                height: 800px;
+                width: 100%;
+                display: inline-block;
+            }
+            .belen{
+                border-radius: 30px;
+                width: 300px;
+                margin: 150px 0px 0px 300px;
+            }
+            .textoPrim{
+                width: 50%;
+                font-size: 30px;
+                vertical-align: top;
+                float: right;
+                margin-top: 300px;
+                margin-right: 300px;
+                text-align: center;
+            }
+            .nombre{
+                font-size: 80px;
+            }
+            .oficio{
+                font-size: 40px;
+            }
+            .seccion2{
+            
+                background-color: #A9F5F2;
+                width: 40px;
+                height: 80px;
+            }
+            
+            .seccion2{
+                height:650px;
+                width: 100%;
+                display: inline-block;
+            }
+            .textoSec{
+                width: 90%;
+                text-align: justify;
+                margin-left: 30px;
+                font-family: 'Montserrat', sans-serif;
+                text-decoration: upperCase;
+                margin: 45px;
+                line-height: 2;
+            }
+            .conoce{
+                font-size: 30px;
+                font-weight: bold;
+            }
+            .entreno{
+                border-radius: 60px;
+                width: 15%;
+                float: right;
+                margin-left: 400px;
+            
+            }
+            .botonServi {
+                border-radius: 10px;
+                border-style: solid;
+                padding:15px 30px;
+                margin-top: 100px;
+                margin-left: 700px;
+                text-decoration:none;
+                color: black;
+                background-color: transparent ;
+                font-family: arial, sans-serif;
+                font-size: 1em;
+                line-height:1em;
+                width: 180px;
+                font-weight: bold;
+              }
+              
+              .botonServi:hover {
+                background-color:#58D3F7 ;
+                border-style: none;
+                text-decoration: none;
+              }
+            footer{
+                flex-direction: row;
+                height: 200px;
+                margin-left: 700px;
+            }
+            .redes{
+                font-size: 20px;
+                margin-top: 30px;
+                margin-bottom: 10px;
+                font-weight: bold;
+            }
+            .iconos a{
+                width: 30px;
+                display: inline-block;
+                margin-left: 120px;
+                margin-top: 10px;
+            
+            }
+            .enlaces a{
+                display: block;
+                margin: 0 20px 0 20px;
+                text-decoration: none;
+            }
+            .informacion{
+                margin-top: 30px;
+                margin-left: 35px;
+                text-decoration: none;
+                font-size: 15px;
+            }
+            .cook{
+                text-decoration: none;
+                color: black;
+                margin-right: 20px;
+            }
+            .pol{
+                color: black;
+                margin-left: 20px;
+            
+                margin-right: 20px;
+            }
+		}

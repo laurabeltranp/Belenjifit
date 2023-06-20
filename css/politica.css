@@ -1,0 +1,98 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+.nav{
+    background-color: #A9F5F2;
+    height: 90px;
+    width: 100%;
+    position: fixed;
+}
+.enlcace{
+    position: absolute;
+    padding: 20px 50px;
+}
+.logo{
+    height: 80px;
+    margin-left: 35px;
+    margin-top: 5px;
+}
+nav ul{
+    float: right;
+    margin-right: 40px;
+}
+nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 15px;
+}
+nav ul li a{
+    color: black;
+    font-size: 25px;
+    padding: 7px 13px;
+    border-radius: 3px;
+    text-decoration: upperCase;
+}
+li a.active, li a:hover{
+    background-color: aquamarine;
+}
+.checkbtn{
+    font-size: 20px;
+    color: black;
+    float: right;
+    line-height: 40px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+}
+#check{
+    display: none;
+}
+
+
+
+/*==================FOOTER==================*/
+footer{
+	flex-direction: row;
+    height: 200px;
+    margin-left: 700px;
+}
+.redes{
+    font-size: 20px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+.iconos a{
+    width: 30px;
+	display: inline-block;
+	margin-left: 120px;
+    margin-top: 10px;
+
+}
+.enlaces a{
+	display: block;
+	margin: 0 20px 0 20px;
+	text-decoration: none;
+}
+.informacion{
+    margin-top: 30px;
+    margin-left: 35px;
+    text-decoration: none;
+    font-size: 15px;
+}
+.cook{
+    text-decoration: none;
+    color: black;
+    margin-right: 20px;
+}
+.pol{
+    color: black;
+    margin-left: 20px;
+
+    margin-right: 20px;
+}
