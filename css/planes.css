@@ -54,13 +54,15 @@ li a.active, li a:hover{
 }
 .contenedor{
     width: 100%;
+    padding-top: 100px;
     display: flex;
+    flex-direction: row;
     max-width: 1100px;
     margin-left: 300px;
 }
 .card{
     width: 100%;
-   margin-top: 200px;
+    margin-top: 100px;
     margin-left: 90px;
     border-radius: 6px;
     overflow: hidden; /* para que todas la propiedas fuera de la clase card desaparezcan*/
@@ -112,6 +114,7 @@ footer{
 	flex-direction: row;
     height: 200px;
     margin-left: 700px;
+    padding-top: 100px;
 }
 .redes{
     font-size: 20px;
@@ -151,7 +154,7 @@ footer{
 
 /*==================FOOTER==================*/
 @media only screen and (max-width: 590px) {
-	/* For tablets: */
+	/* For mobile: */
     
 	.nav{
         background-color: #A9F5F2;
@@ -170,7 +173,7 @@ footer{
     }
     nav ul{
         float: right;
-        margin-right: 50px;
+        margin-right: 0px;
     }
     nav ul li{
         display: inline-block;
@@ -179,7 +182,7 @@ footer{
     }
     nav ul li a{
         color: black;
-        font-size: 12px;
+        font-size: 15px;
         padding: 2px 3px;
         border-radius: 3px;
         text-decoration: upperCase;
@@ -301,392 +304,4 @@ footer{
         margin-right: 20px;
     }
 }
-@media only screen and (min-width: 600px) {
-	/* For tablets: */
- 
-	.nav{
-        background-color: #A9F5F2;
-        height: 90px;
-        width: 100%;
-        position: fixed;
-    }
-    .enlcace{
-        position: absolute;
-        padding: 20px 50px;
-    }
-    .logo{
-        height: 80px;
-        margin-left: 5px;
-        margin-top: 5px;
-    }
-    nav ul{
-        float: right;
-        margin-right: 40px;
-    }
-    nav ul li{
-        display: inline-block;
-        line-height: 80px;
-        margin: 0 15px;
-    }
-    nav ul li a{
-        color: black;
-        font-size: 25px;
-        padding: 7px 13px;
-        border-radius: 3px;
-        text-decoration: upperCase;
-    }
-    li a.active, li a:hover{
-        background-color: aquamarine;
-    }
-   
-    body{
-        width: 100%;
-        margin: auto;
 
-    }
-    
-    .contenedor {
-        width: 89%;
-        max-width: 100%;
-        display: flex;
-        flex-direction: column;
-        align-items: center; /* Centrar contenido horizontalmente */
-        padding-top: 100px; /* Agregamos espacio en los bordes para mejorar el aspecto en pantallas pequeñas */
-        padding-right: 200px;
-        margin-left: 70px;
-       
-    }
-    
-    .card {
-        width: 100%;
-        max-width: 100%;
-        margin-top: 20px; /* Reducimos el margen superior en dispositivos móviles */
-        border-radius: 6px;
-        overflow: hidden;
-        background: #fff;
-        box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
-        cursor: pointer; /* Cambiamos el cursor para indicar que es interactivo */
-        transition: all 400ms ease;
-    }
-    
-    .card:hover {
-        box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
-        transform: translateY(-3%);
-    }
-    
-    .card img {
-        width: 100%;
-        height: auto; /* Ajustamos la altura automáticamente para mantener la proporción */
-    }
-    
-    .card .contenido {
-        padding: 15px;
-        text-align: center;
-    }
-    
-    .card .contenido p {
-        line-height: 1.5;
-        color: #6a6a6a;
-        font-size: 14px; /* Ajustamos el tamaño de fuente para dispositivos móviles */
-    }
-    
-    .card .contenido h3 {
-        font-weight: 400;
-        margin-bottom: 15px;
-        font-size: 18px; /* Ajustamos el tamaño de fuente para dispositivos móviles */
-    }
-    
-    .card .contenido a {
-        display: inline-block;
-        padding: 10px;
-        margin-top: 10px;
-        color: #A9F5F2;
-        border: 1px solid #A9F5F2;
-        border-radius: 4px;
-        transition: all 400ms ease;
-        text-decoration: none; /* Eliminamos el subrayado de los enlaces */
-    }
-    
-    .card .contenido a:hover {
-        background-color: #A9F5F2;
-        color: #fff;
-    }
-    
-    footer{
-        flex-direction: row;
-        height: 200px;
-        margin-left: 70px;
-    }
-    .redes{
-        font-size: 20px;
-        margin-top: 30px;
-        margin-bottom: 10px;
-        font-weight: bold;
-    }
-    .iconos a{
-        width: 30px;
-        display: inline-block;
-        margin-left: 120px;
-        margin-top: 10px;
-    
-    }
-    .enlaces a{
-        display: block;
-        margin: 0 20px 0 20px;
-        text-decoration: none;
-    }
-    .informacion{
-        margin-top: 30px;
-        margin-left: 35px;
-        text-decoration: none;
-        font-size: 15px;
-    }
-    .cook{
-        text-decoration: none;
-        color: black;
-        margin-right: 20px;
-    }
-    .pol{
-        color: black;
-        margin-left: 20px;
-    
-        margin-right: 20px;
-    }
-}
-@media only screen and (min-width: 768px) {
-/*@media screen and (min-width: 1200px){*/
-	
-    .nav{
-        background-color: #A9F5F2;
-        height: 90px;
-        width: 100%;
-        position: fixed;
-    }
-    .enlcace{
-        position: absolute;
-        padding: 20px 50px;
-    }
-    .logo{
-        height: 80px;
-        margin-left: 5px;
-        margin-top: 5px;
-    }
-    nav ul{
-        float: right;
-        margin-right: 40px;
-    }
-    nav ul li{
-        display: inline-block;
-        line-height: 80px;
-        margin: 0 10px;
-    }
-    nav ul li a{
-        color: black;
-        font-size: 20px;
-        padding: 2px 8px;
-        border-radius: 3px;
-        text-decoration: upperCase;
-    }
-    li a.active, li a:hover{
-        background-color: aquamarine;
-    }
-    body{
-        width: 100%;
-        margin: auto;
-
-    }
-    
-    .contenedor {
-        width: 89%;
-        max-width: 100%;
-        display: flex;
-        flex-direction: column;
-        align-items: center; /* Centrar contenido horizontalmente */
-        padding-top: 100px; /* Agregamos espacio en los bordes para mejorar el aspecto en pantallas pequeñas */
-        padding-right: 200px;
-        margin-left: 70px;
-       
-    }
-    
-    .card {
-        width: 100%;
-        max-width: 100%;
-        margin-top: 20px; /* Reducimos el margen superior en dispositivos móviles */
-        border-radius: 6px;
-        overflow: hidden;
-        background: #fff;
-        box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
-        cursor: pointer; /* Cambiamos el cursor para indicar que es interactivo */
-        transition: all 400ms ease;
-    }
-    
-    .card:hover {
-        box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
-        transform: translateY(-3%);
-    }
-    
-    .card img {
-        width: 100%;
-        height: auto; /* Ajustamos la altura automáticamente para mantener la proporción */
-    }
-    
-    .card .contenido {
-        padding: 15px;
-        text-align: center;
-    }
-    
-    .card .contenido p {
-        line-height: 1.5;
-        color: #6a6a6a;
-        font-size: 14px; /* Ajustamos el tamaño de fuente para dispositivos móviles */
-    }
-    
-    .card .contenido h3 {
-        font-weight: 400;
-        margin-bottom: 15px;
-        font-size: 18px; /* Ajustamos el tamaño de fuente para dispositivos móviles */
-    }
-    
-    .card .contenido a {
-        display: inline-block;
-        padding: 10px;
-        margin-top: 10px;
-        color: #A9F5F2;
-        border: 1px solid #A9F5F2;
-        border-radius: 4px;
-        transition: all 400ms ease;
-        text-decoration: none; /* Eliminamos el subrayado de los enlaces */
-    }
-    
-    .card .contenido a:hover {
-        background-color: #A9F5F2;
-        color: #fff;
-    }
-    footer{
-        flex-direction: row;
-        height: 200px;
-        margin-left: 200px;
-    }
-    .redes{
-        font-size: 20px;
-        margin-top: 30px;
-        margin-bottom: 10px;
-        font-weight: bold;
-    }
-    .iconos a{
-        width: 30px;
-        display: inline-block;
-        margin-left: 120px;
-        margin-top: 10px;
-    
-    }
-    .enlaces a{
-        display: block;
-        margin: 0 20px 0 20px;
-        text-decoration: none;
-    }
-    .informacion{
-        margin-top: 30px;
-        margin-left: 35px;
-        text-decoration: none;
-        font-size: 15px;
-    }
-    .cook{
-        text-decoration: none;
-        color: black;
-        margin-right: 20px;
-    }
-    .pol{
-        color: black;
-        margin-left: 20px;
-    
-        margin-right: 20px;
-    }
-	}
-	@media only screen and (min-width: 900px) {
-		/*@media screen and (min-width: 1200px){*/
-			
-            .nav{
-                background-color: #A9F5F2;
-                height: 90px;
-                width: 100%;
-                position: fixed;
-            }
-            .enlcace{
-                position: absolute;
-                padding: 20px 50px;
-            }
-            .logo{
-                height: 80px;
-                margin-left: 35px;
-                margin-top: 5px;
-            }
-            nav ul{
-                float: right;
-                margin-right: 40px;
-            }
-            nav ul li{
-                display: inline-block;
-                line-height: 80px;
-                margin: 0 15px;
-            }
-            nav ul li a{
-                color: black;
-                font-size: 25px;
-                padding: 7px 13px;
-                border-radius: 3px;
-                text-decoration: upperCase;
-            }
-            li a.active, li a:hover{
-                background-color: aquamarine;
-            }
-            body{
-                width: 50%;
-            }
-            .contenedor{
-                width: 100%;
-            }
-            .card{
-                width: 100%;
-            }
-            footer{
-                flex-direction: row;
-                height: 200px;
-                margin-left: 700px;
-            }
-            .redes{
-                font-size: 20px;
-                margin-top: 30px;
-                margin-bottom: 10px;
-                font-weight: bold;
-            }
-            .iconos a{
-                width: 30px;
-                display: inline-block;
-                margin-left: 120px;
-                margin-top: 10px;
-            
-            }
-            .enlaces a{
-                display: block;
-                margin: 0 20px 0 20px;
-                text-decoration: none;
-            }
-            .informacion{
-                margin-top: 30px;
-                margin-left: 35px;
-                text-decoration: none;
-                font-size: 15px;
-            }
-            .cook{
-                text-decoration: none;
-                color: black;
-                margin-right: 20px;
-            }
-            .pol{
-                color: black;
-                margin-left: 20px;
-            
-                margin-right: 20px;
-            }
-		}

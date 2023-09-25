@@ -101,8 +101,7 @@ input::placeholder, textarea::placeholder {
     text-align: center;
 }
 .form-txt a{
-    color: #E3F05E;
-    font-size: 14px;
+    color: #202524;
     font-weight: 600px;
 }
 .btn{
@@ -253,7 +252,7 @@ footer{
         text-align: center;
     }
     .form-txt a{
-        color: #E3F05E;
+        color: #202524;
         font-size: 14px;
         font-weight: 600px;
     }
@@ -366,19 +365,4 @@ footer{
     }
 
 
-}
-@media only screen and (min-width: 768px) {
-/*@media screen and (min-width: 1200px){*/
-	
-    
-	}
-
-
-
-
-
-@media only screen and (min-width: 900px) {
-    /*@media screen and (min-width: 1200px){*/
-        
-        
 }
