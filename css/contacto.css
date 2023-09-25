@@ -52,8 +52,71 @@ li a.active, li a:hover{
 #check{
     display: none;
 }
+.contenedor{
+    padding-top: 120px;
+    margin-left: 700px;
+}
 
+form{
+    padding: 50px 55px;
+    box-shadow: 0 0 20px rgb(0, 0, 0, 0.2);
+    border-radius: 20px;
+    text-align: center;
+    width: 340px;
+}
+.input-group{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+h2{
+    color: #283629;
+    font-size: 35px;
+}
+label{
+    color: #283629;
+    font-size: 15px;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+input, textarea{
+    padding: 17px 25px;
+    border-radius: 25px;
+    margin-bottom: 20px;
+    background-color: #edfff0;
+    border: 2px solid #f0faf1;
+    color: #283629;
+    outline: none;
+}
 
+input::placeholder, textarea::placeholder {
+
+    color: #b5cab6;
+
+}
+.form-txt{
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+.form-txt a{
+    color: #E3F05E;
+    font-size: 14px;
+    font-weight: 600px;
+}
+.btn{
+    font-size: 16px;
+    color: #f0faf1;
+    border: 0;
+    border-radius: 25px;
+    background-color: #A9F5F2;
+    box-shadow: 0 0 10px rgba(3 255 218);
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: #03FFF0;
+}
 
 
 /*==================FOOTER==================*/
@@ -96,4 +159,226 @@ footer{
     margin-left: 20px;
 
     margin-right: 20px;
+}
+
+
+/********** QUERYS **********/
+@media only screen and (max-width: 590px) {
+	/* For tablets: */
+    .nav{
+        background-color: #A9F5F2;
+        height: 90px;
+        width: 100%;
+        position: fixed;
+    }
+    .enlcace{
+        position: absolute;
+        padding: 20px 50px;
+    }
+    .logo{
+        height: 80px;
+        margin-left: 5px;
+        margin-top: 5px;
+    }
+    nav ul{
+        float: right;
+        margin-right: 40px;
+    }
+    nav ul li{
+        display: inline-block;
+        line-height: 80px;
+        margin: 0 15px;
+    }
+    nav ul li a{
+        color: black;
+        font-size: 12px;
+        padding: 2px 3px;
+        border-radius: 3px;
+        text-decoration: upperCase;
+    }
+    li a.active, li a:hover{
+        background-color: aquamarine;
+    }
+    body{
+        width: 75%;
+        margin: 0px;
+    }
+    
+    .contenedor{
+        width: 100%;
+        margin-left: 0px;
+    }
+	form{
+        margin: 0 auto;
+        padding: 50px 55px;
+        box-shadow: 0 0 20px rgb(0, 0, 0, 0.2);
+        border-radius: 20px;
+        text-align: center;
+        width: 70%;
+    }
+    .input-group{
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+    }
+    h2{
+        color: #283629;
+        font-size: 25px;
+    }
+    label{
+        color: #283629;
+        font-size: 15px;
+        font-weight: 600;
+        margin-bottom: 15px;
+    }
+    input, textarea{
+        padding: 17px 25px;
+        border-radius: 25px;
+        margin-bottom: 20px;
+        background-color: #edfff0;
+        border: 2px solid #f0faf1;
+        color: #283629;
+        outline: none;
+    }
+    
+    input::placeholder, textarea::placeholder {
+    
+        color: #b5cab6;
+    
+    }
+    .form-txt{
+        margin-bottom: 30px;
+        display: flex;
+        justify-content: space-between;
+        text-align: center;
+    }
+    .form-txt a{
+        color: #E3F05E;
+        font-size: 14px;
+        font-weight: 600px;
+    }
+    .btn{
+        font-size: 16px;
+        color: #f0faf1;
+        border: 0;
+        border-radius: 25px;
+        background-color: #A9F5F2;
+        box-shadow: 0 0 10px rgba(3 255 218);
+        cursor: pointer;
+    }
+    .btn:hover{
+        background-color: #03FFF0;
+    }
+
+
+    footer{
+        flex-direction: row;
+        height: 200px;
+        margin-left: 70px;
+    }
+    .redes{
+        font-size: 15px;
+        margin-top: 30px;
+        margin-bottom: 10px;
+        font-weight: bold;
+    }
+    .iconos a{
+        width: 30px;
+        display: inline-block;
+        margin-left: 120px;
+        margin-top: 10px;
+    
+    }
+    .enlaces a{
+        display: block;
+        margin: 0 20px 0 20px;
+        text-decoration: none;
+    }
+    .informacion{
+        margin-top: 30px;
+        margin-left: 35px;
+        text-decoration: none;
+        font-size: 15px;
+    }
+    .cook{
+        text-decoration: none;
+        color: black;
+        margin-right: 20px;
+    }
+    .pol{
+        color: black;
+        margin-left: 20px;
+    
+        margin-right: 20px;
+    }
+}
+@media only screen and (min-width: 600px) {
+	/* For tablets: */
+    .nav{
+        background-color: #A9F5F2;
+        height: 90px;
+        width: 100%;
+        position: fixed;
+    }
+    .enlcace{
+        position: absolute;
+        padding: 20px 50px;
+    }
+    .logo{
+        height: 80px;
+        margin-left: 5px;
+        margin-top: 5px;
+    }
+    nav ul{
+        float: right;
+        margin-right: 40px;
+    }
+    nav ul li{
+        display: inline-block;
+        line-height: 80px;
+        margin: 0 15px;
+    }
+    nav ul li a{
+        color: black;
+        font-size: 25px;
+        padding: 7px 13px;
+        border-radius: 3px;
+        text-decoration: upperCase;
+    }
+    li a.active, li a:hover{
+        background-color: aquamarine;
+    }
+    .checkbtn{
+        font-size: 5px;
+        color: black;
+        float: right;
+        line-height: 40px;
+        margin-right: 40px;
+        cursor: pointer;
+        display: none;
+    }
+    #check{
+        display: none;
+    }
+
+    body{
+        padding: auto;
+    }
+
+
+}
+@media only screen and (min-width: 768px) {
+/*@media screen and (min-width: 1200px){*/
+	
+    
+	}
+
+
+
+
+
+@media only screen and (min-width: 900px) {
+    /*@media screen and (min-width: 1200px){*/
+        
+        
 }
