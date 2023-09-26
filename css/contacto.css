@@ -199,7 +199,7 @@ footer{
         background-color: aquamarine;
     }
     body{
-        width: 78%;
+        width: 90%;
         margin: 0px;
     }
     
@@ -213,7 +213,7 @@ footer{
         box-shadow: 0 0 20px rgb(0, 0, 0, 0.2);
         border-radius: 20px;
         text-align: center;
-        width: 74%;
+        width: 65%;
     }
     .input-group{
         display: flex;
