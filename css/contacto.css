@@ -190,7 +190,7 @@ footer{
     }
     nav ul li a{
         color: black;
-        font-size: 12px;
+        font-size: 15px;
         padding: 2px 3px;
         border-radius: 3px;
         text-decoration: upperCase;
@@ -199,13 +199,13 @@ footer{
         background-color: aquamarine;
     }
     body{
-        width: 75%;
+        width: 78%;
         margin: 0px;
     }
     
     .contenedor{
         width: 100%;
-        margin-left: 0px;
+        margin-left: 30px;
     }
 	form{
         margin: 0 auto;
@@ -213,7 +213,7 @@ footer{
         box-shadow: 0 0 20px rgb(0, 0, 0, 0.2);
         border-radius: 20px;
         text-align: center;
-        width: 70%;
+        width: 74%;
     }
     .input-group{
         display: flex;
