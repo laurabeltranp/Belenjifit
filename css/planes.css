@@ -128,10 +128,9 @@ th, td {
 
 /*==================FOOTER==================*/
 footer{
-	flex-direction: row;
+    flex-direction: row;
     height: 200px;
     margin-left: 700px;
-    padding-top: 100px;
 }
 .redes{
     font-size: 20px;
@@ -141,22 +140,21 @@ footer{
 }
 .iconos a{
     width: 30px;
-	display: inline-block;
-	margin-left: 120px;
+    display: inline-block;
+    margin-left: 120px;
     margin-top: 10px;
 
 }
 .enlaces a{
-	display: block;
-	margin: 0 20px 0 20px;
-	text-decoration: none;
+    display: block;
+    margin: 0 20px 0 20px;
+    text-decoration: none;
 }
 .informacion{
     margin-top: 30px;
     margin-left: 35px;
     text-decoration: none;
     font-size: 15px;
-    padding-bottom: 20px;
 }
 .cook{
     text-decoration: none;
@@ -272,7 +270,7 @@ footer{
     }
 
   
-}
+
     .card .contenido a {
         display: inline-block;
         padding: 10px;
@@ -333,3 +331,4 @@ footer{
     }
 
 
+}
