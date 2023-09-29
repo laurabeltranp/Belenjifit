@@ -123,6 +123,7 @@ footer{
 	flex-direction: row;
     height: 200px;
     margin-left: 700px;
+    margin-top: 50px;
 }
 .redes{
     font-size: 20px;
@@ -160,7 +161,10 @@ footer{
 
     margin-right: 20px;
 }
-
+#copy{
+    margin-top: 20px;
+    margin-left: 100px;
+}
 
 /********** QUERYS **********/
 @media only screen and (max-width: 590px) {

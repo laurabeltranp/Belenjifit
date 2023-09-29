@@ -131,6 +131,7 @@ footer{
     flex-direction: row;
     height: 200px;
     margin-left: 700px;
+    margin-top: 80px;
 }
 .redes{
     font-size: 20px;
@@ -166,6 +167,10 @@ footer{
     margin-left: 20px;
 
     margin-right: 20px;
+}
+#copy{
+    margin-top: 40px;
+    margin-left: 100px;
 }
 
 /*==================FOOTER==================*/
