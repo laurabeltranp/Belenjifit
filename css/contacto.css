@@ -127,7 +127,7 @@ footer{
 .redes{
     font-size: 20px;
     margin-top: 30px;
-    margin-bottom: 10px;
+    margin-bottom: 19px;
     font-weight: bold;
 }
 .iconos a{
@@ -147,6 +147,7 @@ footer{
     margin-left: 35px;
     text-decoration: none;
     font-size: 15px;
+    padding-bottom: 20px;
 }
 .cook{
     text-decoration: none;

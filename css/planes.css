@@ -89,10 +89,27 @@ li a.active, li a:hover{
     line-height: 1.5;
     color: #6a6a6a;
 }
+.color-cruz{
+    color: #A5A9A9;
+}
 .card .contenido h3{
     font-weight: 400;
     margin-bottom: 15px;
+    font-weight: bold;
+
 }
+table {
+    border-collapse: collapse;
+    width: 100%;
+    border: none;
+}
+
+th, td {
+    border: none;
+    padding: 8px;
+    text-align: left;
+}
+
 .card .contenido a{
     display: inline-block;
     padding: 10px;
@@ -139,6 +156,7 @@ footer{
     margin-left: 35px;
     text-decoration: none;
     font-size: 15px;
+    padding-bottom: 20px;
 }
 .cook{
     text-decoration: none;
@@ -173,7 +191,7 @@ footer{
     }
     nav ul{
         float: right;
-        margin-right: 0px;
+        margin-right: 55px;
     }
     nav ul li{
         display: inline-block;
@@ -196,15 +214,14 @@ footer{
     }
     
     .contenedor {
-        width: 89%;
+        width: 86%;
         max-width: 100%;
         display: flex;
         flex-direction: column;
         align-items: center; /* Centrar contenido horizontalmente */
         padding-top: 100px; /* Agregamos espacio en los bordes para mejorar el aspecto en pantallas pequeñas */
-        padding-right: 200px;
-        margin-left: 70px;
-       
+        padding-right: 100px;
+        margin-left: 70px;      
     }
     
     .card {
@@ -245,7 +262,17 @@ footer{
         margin-bottom: 15px;
         font-size: 18px; /* Ajustamos el tamaño de fuente para dispositivos móviles */
     }
-    
+    .color-cruz{
+        color: #A5A9A9;
+    }
+    th, td {
+        padding: 6px;
+        display: block;
+        text-align: center;
+    }
+
+  
+}
     .card .contenido a {
         display: inline-block;
         padding: 10px;
@@ -291,6 +318,7 @@ footer{
         margin-left: 35px;
         text-decoration: none;
         font-size: 15px;
+        padding-bottom: 20px;
     }
     .cook{
         text-decoration: none;
@@ -303,5 +331,5 @@ footer{
     
         margin-right: 20px;
     }
-}
+
 

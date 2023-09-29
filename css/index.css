@@ -228,12 +228,12 @@ footer{
         border-radius: 30px;
         width: 60%;
         margin-top: 200px;
-        margin-left: 150px;
+        margin-left: 120px;
     }
     .textoPrim{
         width: 40%;
         margin-top: 10px;
-        margin-right: 100px;
+        margin-right: 150px;
     }
     .nombre{
         font-size: 25px;
@@ -248,9 +248,10 @@ footer{
     }
     
     .seccion2{
-        height:720px;
+        height:700px;
         width: 100%;
         display: inline-block;
+        padding-top: 20px;
     }
     .textoSec{
         width: 90%;
@@ -281,16 +282,16 @@ footer{
     .botonServi {
         border-radius: 10px;
         border-style: solid;
-        padding:15px 30px;
-        margin-top: 25px;
-        margin-left: 170px;
+        padding:15px 20px;
+        margin-top: 50px;
+        margin-left: 130px;
         text-decoration:none;
-        color: black !important;
+        color: yellow !important;
         background-color: transparent ;
         font-family: arial, sans-serif;
         font-size: 1em;
         line-height:1em;
-        width: 110px;
+        width: 150px;
         font-weight: bold;
         
       }
@@ -299,6 +300,9 @@ footer{
         background-color:#58D3F7 ;
         border-style: none;
         text-decoration: none;
+      }
+      .botonServi a{
+        color: white;
       }
     footer{
         flex-direction: row;
