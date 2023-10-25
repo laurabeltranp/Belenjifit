@@ -31,6 +31,7 @@ form.addEventListener('submit', async (event) => {
     }
 });
 */
+document.addEventListener('DOMContentLoaded', function () {
 const form = document.querySelector('form');
 const mensajeExito = document.getElementById('mensajeExito');
 
@@ -86,3 +87,4 @@ function showCustomAlert(message) {
         customAlert.style.display = 'none';
     }, 3000); // Oculta la ventana de alerta después de 3 segundos (puedes ajustar el tiempo)
 }
+});
